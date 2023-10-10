@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01A16652AD5C95100979799 /* apcsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16642AD5C95100979799 /* apcsappApp.swift */; };
+		B01A16672AD5C95100979799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16662AD5C95100979799 /* ContentView.swift */; };
+		B01A16692AD5C95400979799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A16682AD5C95400979799 /* Assets.xcassets */; };
+		B01A166C2AD5C95400979799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A166B2AD5C95400979799 /* Preview Assets.xcassets */; };
+		B01A16762AD5C95400979799 /* apcsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16752AD5C95400979799 /* apcsappTests.swift */; };
+		B01A16802AD5C95400979799 /* apcsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A167F2AD5C95400979799 /* apcsappUITests.swift */; };
+		B01A16822AD5C95400979799 /* apcsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16812AD5C95400979799 /* apcsappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B01A16722AD5C95400979799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01A16592AD5C95100979799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01A16602AD5C95100979799;
+			remoteInfo = apcsapp;
+		};
+		B01A167C2AD5C95400979799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01A16592AD5C95100979799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01A16602AD5C95100979799;
+			remoteInfo = apcsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B01A16612AD5C95100979799 /* apcsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apcsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01A16642AD5C95100979799 /* apcsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apcsappApp.swift; sourceTree = "<group>"; };
+		B01A16662AD5C95100979799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B01A16682AD5C95400979799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B01A166B2AD5C95400979799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B01A16712AD5C95400979799 /* apcsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apcsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01A16752AD5C95400979799 /* apcsappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apcsappTests.swift; sourceTree = "<group>"; };
+		B01A167B2AD5C95400979799 /* apcsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apcsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01A167F2AD5C95400979799 /* apcsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apcsappUITests.swift; sourceTree = "<group>"; };
+		B01A16812AD5C95400979799 /* apcsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apcsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01A165E2AD5C95100979799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A166E2AD5C95400979799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A16782AD5C95400979799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01A16582AD5C95100979799 = {
+			isa = PBXGroup;
+			children = (
+				B01A16632AD5C95100979799 /* apcsapp */,
+				B01A16742AD5C95400979799 /* apcsappTests */,
+				B01A167E2AD5C95400979799 /* apcsappUITests */,
+				B01A16622AD5C95100979799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B01A16622AD5C95100979799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01A16612AD5C95100979799 /* apcsapp.app */,
+				B01A16712AD5C95400979799 /* apcsappTests.xctest */,
+				B01A167B2AD5C95400979799 /* apcsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01A16632AD5C95100979799 /* apcsapp */ = {
+			isa = PBXGroup;
+			children = (
+				B01A16642AD5C95100979799 /* apcsappApp.swift */,
+				B01A16662AD5C95100979799 /* ContentView.swift */,
+				B01A16682AD5C95400979799 /* Assets.xcassets */,
+				B01A166A2AD5C95400979799 /* Preview Content */,
+			);
+			path = apcsapp;
+			sourceTree = "<group>";
+		};
+		B01A166A2AD5C95400979799 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B01A166B2AD5C95400979799 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B01A16742AD5C95400979799 /* apcsappTests */ = {
+			isa = PBXGroup;
+			children = (
+				B01A16752AD5C95400979799 /* apcsappTests.swift */,
+			);
+			path = apcsappTests;
+			sourceTree = "<group>";
+		};
+		B01A167E2AD5C95400979799 /* apcsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B01A167F2AD5C95400979799 /* apcsappUITests.swift */,
+				B01A16812AD5C95400979799 /* apcsappUITestsLaunchTests.swift */,
+			);
+			path = apcsappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01A16602AD5C95100979799 /* apcsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01A16852AD5C95400979799 /* Build configuration list for PBXNativeTarget "apcsapp" */;
+			buildPhases = (
+				B01A165D2AD5C95100979799 /* Sources */,
+				B01A165E2AD5C95100979799 /* Frameworks */,
+				B01A165F2AD5C95100979799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apcsapp;
+			productName = apcsapp;
+			productReference = B01A16612AD5C95100979799 /* apcsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B01A16702AD5C95400979799 /* apcsappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01A16882AD5C95400979799 /* Build configuration list for PBXNativeTarget "apcsappTests" */;
+			buildPhases = (
+				B01A166D2AD5C95400979799 /* Sources */,
+				B01A166E2AD5C95400979799 /* Frameworks */,
+				B01A166F2AD5C95400979799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01A16732AD5C95400979799 /* PBXTargetDependency */,
+			);
+			name = apcsappTests;
+			productName = apcsappTests;
+			productReference = B01A16712AD5C95400979799 /* apcsappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B01A167A2AD5C95400979799 /* apcsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01A168B2AD5C95400979799 /* Build configuration list for PBXNativeTarget "apcsappUITests" */;
+			buildPhases = (
+				B01A16772AD5C95400979799 /* Sources */,
+				B01A16782AD5C95400979799 /* Frameworks */,
+				B01A16792AD5C95400979799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01A167D2AD5C95400979799 /* PBXTargetDependency */,
+			);
+			name = apcsappUITests;
+			productName = apcsappUITests;
+			productReference = B01A167B2AD5C95400979799 /* apcsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01A16592AD5C95100979799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B01A16602AD5C95100979799 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B01A16702AD5C95400979799 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B01A16602AD5C95100979799;
+					};
+					B01A167A2AD5C95400979799 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B01A16602AD5C95100979799;
+					};
+				};
+			};
+			buildConfigurationList = B01A165C2AD5C95100979799 /* Build configuration list for PBXProject "apcsapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01A16582AD5C95100979799;
+			productRefGroup = B01A16622AD5C95100979799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01A16602AD5C95100979799 /* apcsapp */,
+				B01A16702AD5C95400979799 /* apcsappTests */,
+				B01A167A2AD5C95400979799 /* apcsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01A165F2AD5C95100979799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A166C2AD5C95400979799 /* Preview Assets.xcassets in Resources */,
+				B01A16692AD5C95400979799 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A166F2AD5C95400979799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A16792AD5C95400979799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01A165D2AD5C95100979799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A16672AD5C95100979799 /* ContentView.swift in Sources */,
+				B01A16652AD5C95100979799 /* apcsappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A166D2AD5C95400979799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A16762AD5C95400979799 /* apcsappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A16772AD5C95400979799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A16802AD5C95400979799 /* apcsappUITests.swift in Sources */,
+				B01A16822AD5C95400979799 /* apcsappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B01A16732AD5C95400979799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01A16602AD5C95100979799 /* apcsapp */;
+			targetProxy = B01A16722AD5C95400979799 /* PBXContainerItemProxy */;
+		};
+		B01A167D2AD5C95400979799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01A16602AD5C95100979799 /* apcsapp */;
+			targetProxy = B01A167C2AD5C95400979799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B01A16832AD5C95400979799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B01A16842AD5C95400979799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01A16862AD5C95400979799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apcsapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = APCS.apcsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01A16872AD5C95400979799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apcsapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = APCS.apcsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B01A16892AD5C95400979799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = APCS.apcsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apcsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/apcsapp";
+			};
+			name = Debug;
+		};
+		B01A168A2AD5C95400979799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = APCS.apcsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apcsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/apcsapp";
+			};
+			name = Release;
+		};
+		B01A168C2AD5C95400979799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = APCS.apcsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apcsapp;
+			};
+			name = Debug;
+		};
+		B01A168D2AD5C95400979799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = APCS.apcsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apcsapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01A165C2AD5C95100979799 /* Build configuration list for PBXProject "apcsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01A16832AD5C95400979799 /* Debug */,
+				B01A16842AD5C95400979799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01A16852AD5C95400979799 /* Build configuration list for PBXNativeTarget "apcsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01A16862AD5C95400979799 /* Debug */,
+				B01A16872AD5C95400979799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01A16882AD5C95400979799 /* Build configuration list for PBXNativeTarget "apcsappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01A16892AD5C95400979799 /* Debug */,
+				B01A168A2AD5C95400979799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01A168B2AD5C95400979799 /* Build configuration list for PBXNativeTarget "apcsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01A168C2AD5C95400979799 /* Debug */,
+				B01A168D2AD5C95400979799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01A16592AD5C95100979799 /* Project object */;
+}
