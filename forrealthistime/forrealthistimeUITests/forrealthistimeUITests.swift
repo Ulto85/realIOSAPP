@@ -1,13 +1,13 @@
 //
-//  apcsappUITests.swift
-//  apcsappUITests
+//  forrealthistimeUITests.swift
+//  forrealthistimeUITests
 //
 //  Created by Aayan Rizvi on 10/10/23.
 //
 
 import XCTest
 
-final class apcsappUITests: XCTestCase {
+final class forrealthistimeUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

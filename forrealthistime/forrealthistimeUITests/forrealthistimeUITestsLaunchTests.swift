@@ -1,13 +1,13 @@
 //
-//  apcsappUITestsLaunchTests.swift
-//  apcsappUITests
+//  forrealthistimeUITestsLaunchTests.swift
+//  forrealthistimeUITests
 //
 //  Created by Aayan Rizvi on 10/10/23.
 //
 
 import XCTest
 
-final class apcsappUITestsLaunchTests: XCTestCase {
+final class forrealthistimeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
