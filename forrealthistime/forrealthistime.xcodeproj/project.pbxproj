@@ -16,6 +16,7 @@
 		B01A16B22AD5CD0C00979799 /* forrealthistimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16B12AD5CD0C00979799 /* forrealthistimeTests.swift */; };
 		B01A16BC2AD5CD0C00979799 /* forrealthistimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16BB2AD5CD0C00979799 /* forrealthistimeUITests.swift */; };
 		B01A16BE2AD5CD0C00979799 /* forrealthistimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A16BD2AD5CD0C00979799 /* forrealthistimeUITestsLaunchTests.swift */; };
+		B027200C2ADDC7E600E4BE44 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B027200B2ADDC7E600E4BE44 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B01A16B72AD5CD0C00979799 /* forrealthistimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forrealthistimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01A16BB2AD5CD0C00979799 /* forrealthistimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forrealthistimeUITests.swift; sourceTree = "<group>"; };
 		B01A16BD2AD5CD0C00979799 /* forrealthistimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forrealthistimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B027200B2ADDC7E600E4BE44 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B027200C2ADDC7E600E4BE44 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				B01A16B02AD5CD0C00979799 /* forrealthistimeTests */,
 				B01A16BA2AD5CD0C00979799 /* forrealthistimeUITests */,
 				B01A16982AD5CD0900979799 /* Products */,
+				B027200A2ADDC7E600E4BE44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,14 @@
 				B01A16BD2AD5CD0C00979799 /* forrealthistimeUITestsLaunchTests.swift */,
 			);
 			path = forrealthistimeUITests;
+			sourceTree = "<group>";
+		};
+		B027200A2ADDC7E600E4BE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B027200B2ADDC7E600E4BE44 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
