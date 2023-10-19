@@ -17,18 +17,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func cloneVoicePressed(_ sender: Any) {
-        if let url = URL(string: "https://www.hackingwithswift.com") {
+        if let url = URL(string: "https://assistvuerecord.robowolf.repl.co") {
             UIApplication.shared.open(url)
             /* CREATE WEBSITE TO REDIRECT TO*/
         }
         
     }
     
-    @IBAction func questionMarkPressed(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ") {
-            UIApplication.shared.open(url)
-            /* Demo Video??!?!?!? */
-        }
-    }
+    
+   
+    
+
+    
+   
 }
 
